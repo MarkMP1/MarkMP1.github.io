@@ -1,0 +1,38 @@
+html{
+    margin:0;
+    font-family: Calibri;
+}
+body{
+    margin:0;
+}
+header{
+    font-family: Calibri;
+    margin:0;
+    background-color:dodgerblue;
+    padding:3em;
+}
+header>h1{
+    margin:0;
+    color:white;
+    text-align:center;
+    vertical-align:center;
+    font-size:4em;
+}
+header > p{
+    margin:0;
+    color:white;
+    text-align:center;
+    vertical-align:center;
+    font-style:italic;
+}
+.title{
+    margin:1em;
+    text-align:center;
+    font-size:1.55em;
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 179, 37);  
+}
+.content{
+    margin:0;
+    text-align:center;
+}

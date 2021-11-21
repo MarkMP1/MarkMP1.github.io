@@ -57,9 +57,12 @@ main{
 a {
     color: inherit; 
 }
-a>p:hover{
-    color: red;
+a>p{
+    color: inherit;
     transition: color 0.3s ease-out;
+}
+a:hover{
+    color: red;
 }
 .tile-img{
     width:100%;

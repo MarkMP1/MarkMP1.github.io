@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Most Important Survey Form!</title>
+        <title>Most Important Survey Form.</title>
+        <link rel="stylesheet" href="survey.css">
     </head>
     <body>
         <header>
-
+            <h1>The most important survey form yet.</h1>
+            <p>Choose your answers wisely...</p>
         </header>
         <main>
+            <div class="surveyForm">
+                <form id="theForm">
+                    <div class="formGroup">
+                        <label id="nameLabel">Name</label>
+                        <input 
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="formMember"
+                        placeholder="You should probably put your name here?"
+                        required>
+                    </div>
+                    <div class="formGroup">
+                        <label id="ageLabel">Age</label>
+                        <input
+                        type="number"
+                        name="age"
+                        id="number"
+                        min="13"
+                        max="420"
+                        class="formMember"
+                        placeholder="Enter your very real age. :OO">
 
+                    </div>
+                </form>
+            </div>
         </main>
         <footer>
 

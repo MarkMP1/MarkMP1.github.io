@@ -1,0 +1,80 @@
+html{
+    font-family: 'FreeMono',monospace;
+    height: 100%
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:
+    linear-gradient(to bottom, rgba(48,194,165,0.52), rgba(25,22,84,0.8)),
+    url("https://media.discordapp.net/attachments/717025139690176562/737837376352682025/lmfao.png?width=516&height=298");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align:center;
+    
+}
+h1{
+    font-weight: 600;
+    line-height:1.2;
+    padding-top: 1em;
+    font-family: inherit;
+    text-align: center;
+    margin-top:1em;
+}
+p{
+    margin:0;
+    margin-bottom:1em;
+    text-align:center;
+    font-style: italic;
+    font-weight:500;
+    font-size:1.3em;
+}
+input{
+    margin:0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  
+}
+.surveyForm{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+form{
+  background:radial-gradient(circle at 50% 50%, #52e5ff, #4ddbf6, #42c3df, #34a2bf, #25809c, #19627c, #0f4d65, #0b455c);
+  margin: auto 30% auto 30%;
+  padding:1.25rem 0.625rem; 
+  border-radius: 0.25rem;
+}
+.formGroup{
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+.formMember{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.formMember:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}

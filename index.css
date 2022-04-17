@@ -4,73 +4,15 @@ html{
 }
 body{
     margin:0;
+    
+    background-color:rgb(0, 0, 0);
 }
-header{
+
+h1{
     font-family: Calibri;
     margin:0;
-    background-color:dodgerblue;
+    color: white;
     padding:3em;
-}
-header>h1{
-    margin:0;
-    color:white;
-    text-align:center;
-    vertical-align:center;
-    font-size:4em;
-}
-header > p{
-    margin:0;
-    color:white;
-    text-align:center;
-    vertical-align:center;
-    font-style:italic;
-}
-main{
-    margin:2em;
-}
-.title{
-    margin:1em;
-    text-align:center;
-    font-size:1.55em;
-    text-decoration: underline;
-    text-decoration-color:rgb(255, 179, 37);  
-}
-.content{
-    margin:0;
-    text-align:center;
-}
-.grid{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-bottom: 6rem;
-}
-.tile{
-    background: rgb(233, 233, 233);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    text-decoration: none;
-    transition: background 2s;
-}
-.tile:hover{
-    background: dodgerblue;
-}
-a {
-    color: inherit; 
-}
-a>p{
-    color: inherit;
-    transition: color 1.2s ease-out;
-}
-a:hover{
-    color: rgb(255, 255, 255);
-}
-.tile-img{
-    width:100%;
-    object-fit: cover;
-}.pInGrid{
-    font-size: 1.25rem;
+    text-align: center;
+    font-size:10vh;
 }
